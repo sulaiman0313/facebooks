@@ -1,0 +1,382 @@
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    
+    
+}
+.container{
+    width: 100%;
+    min-height: 118vh;
+    background: transparent;
+    background: #9AD1D4;
+    margin-top: -18px;
+    opacity: 0.8;
+    
+
+}
+.top{
+    display: flex;
+    margin: 15px ;
+    align-items: center;
+    justify-content: center;
+    
+
+
+    
+}
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(225, 225, 225, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 40px;
+    backdrop-filter: blur(4px) saturated(180%);
+   
+
+    
+    
+}
+.inputsearch{
+    position: absolute;
+    margin-top: 30px;
+    display: flex;
+    
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: black;
+    justify-content: center;
+    
+   
+
+
+}
+::placeholder{
+    color: black;
+}
+.search-bar button img{
+    width: 25px;
+    
+
+
+}
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background: skyblue;
+}
+.faceLogo{
+    color: blue;
+    font-size: 50px;
+    margin-left: -900px;
+    margin-top: 35px;
+    
+    
+}
+.logplus{
+    height: 10px;
+    width: 100px;
+    margin-left: 80px;
+    
+}
+.logplus button{
+    height: 50px;
+    width: 50px;
+    border: 0;
+    border-radius: 50%;
+    background: skyblue;
+    margin-top: 18px;
+    
+}
+.plus img{
+    height: 25px;
+    
+
+}
+.comment{
+    height: 10px;
+    width: 100px;
+    margin-left: 80px;
+    
+}
+.comment button{
+    height: 50px;
+    width: 50px;
+    border: 0;
+    border-radius: 50%;
+    background: skyblue;
+    margin-top: 18px;
+}
+.commentbtn img{
+    height: 25px;
+    color: red;
+}
+.bottom{
+    /* border: 2px solid black; */
+    height: 110vh;
+    margin-top: 30px;
+    background: #9AD1D4;
+    display: flex;
+    
+    
+}
+.left{
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 40%;
+    margin: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    /* opacity: 0.5; */
+    
+}
+.mainright .right{
+    /* border: 2px solid blue; */
+    height: 40vh;
+    width: 96%;
+    margin: 15px;
+    background: #EBF2FA;
+    border-radius: 30px;
+    /* opacity: 0.5; */
+    background-color: rgba(255, 255, 255, 0.5);
+    
+
+}
+.mainright{
+    /* border: 2px solid black; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+}
+.right1{
+    height: 25vh;
+    width: 96%;
+    margin: 15px;
+    background: #8f9dad;
+    border-radius: 30px;
+    display: flex;
+    
+}
+
+.profile{
+    /* border: 1px solid green; */
+    width: 400px;
+    height: 60px;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    margin-left: 80px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    background: #9AD1D4;
+    /* opacity: 0.9; */
+
+}
+.profileimg{
+    /* border: 2px solid blue; */
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    display: flex;
+    margin: 5px;
+}
+.profileimg img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 5px 20px;
+    
+}
+.profileimg h2{
+    margin: 8px 10px;
+    color: brown;
+}
+.btun button{
+    border: 2px solid greenyellow;
+    margin: 4px 120px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+
+    
+}
+.shortcuts{
+    /* border: 2px solid red; */
+    height: 25vh;
+    margin-top: 15px;
+}
+.first{
+    color: #BF3100;
+    margin: 18px;
+}
+span{
+    color: #083D77;
+}
+
+.shortcuts ul button{
+    margin: 10px 20px;
+    border-radius: 60%;
+    height: 60px;
+    width: 60px;
+    background: #FFFFFC;
+    border: 0;
+   
+    
+    
+}
+.logos button img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+    
+    
+}
+.second {
+    /* border: 1px solid goldenrod; */
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 200px;
+}
+.second h5{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.secondlogo ul{
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+   
+}
+.secondlogo ul li a{
+    text-decoration: none;
+    margin: 10px;
+    color: #FF3F00;
+    font-size: 20px;
+    font-weight: 600;
+}
+.secondlogo ul li{
+    margin-top: 30px;
+}
+.end{
+    /* border: 1px solid green; */
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.end ul{
+    list-style: none;
+    text-decoration: none;
+}
+.end ul li{
+    text-decoration: none;
+}
+.end ul li a{
+    text-decoration: none;
+    color: #FFA737;
+    font-size: 33px;
+    font-weight: 700;
+}
+.txt{
+    font-size: 25px;
+    margin: 10px;
+    color: #BF3100;
+}
+.logotxt{
+    color: #85C7F2;
+    margin: 15px;
+}
+.right1 .proileomgh{
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 30px;
+    
+}
+.right1{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.proileomgh img{
+    height: 40px;
+    width: 43px;
+    border-radius: 50%;
+}
+.input{
+   margin-top: 30px;
+   /* border: 2px solid green; */
+   height: 40px;
+   width: 300px;
+    
+}
+.input input{
+    height: 40px;
+    width: 600px;
+    border-radius: 50px;
+    font-size: 18px;
+    border: 0;
+    background: #FFFFFC;
+    position: absolute;
+    /* justify-content: center; */
+    text-align: center;
+
+}
+::placeholder{
+    color: #BF3100;
+    position: absolute;
+    left: 20px;
+}
+.lining{
+    /* border: 1px solid black 0 */
+    margin-top: 100px;
+    width: 770px;
+    height: 1px;
+    margin-left: -396px;
+}
+.livetv{
+    /* border: 1px solid greenyellow; */
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+    margin-left: -120px;
+}
+.livetv ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: -550px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.livetv ul li a{
+   margin: 50px;
+    /* border: 1px solid red; */
+    text-decoration: none;
+    color: #FF3F00;
+    font-size: 20px;
+}
+.zinc{
+    font-size: 18px;
+    margin: 1px;
+    color: #7D5BA6;
+   
+}
